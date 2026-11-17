@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ECO.P — Préserver le monde jurassien</title>
+  <meta name="description" content="ECO.P organise des sorties nature accessibles dans le massif du Jura — canoë, voile, randonnée, accrobranche — et laisse chaque lieu plus propre qu'on l'a trouvé.">
+  <meta name="theme-color" content="#F2F2E3" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1A16" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="images/logo-ecop.webp" type="image/webp">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <aside class="demo-bar" aria-label="Avertissement">Site de démonstration — contenus d'exemple. Les données envoyées par les formulaires sont effacées automatiquement au bout de 20 minutes.</aside>
+
+  <!-- ================= EN-TÊTE ================= -->
+  <header class="site-header">
+    <div class="container site-header__bar">
+      <a class="brand" href="#accueil" aria-label="ECO.P, retour à l'accueil">
+        <img src="images/logo-ecop.webp" alt="" width="42" height="42">
+        <span>
+          <span class="brand__name">ECO.P</span>
+          <span class="brand__tag">Massif du Jura</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        Menu
+      </button>
+
+      <nav class="main-nav" id="menu" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#sorties">Sorties</a></li>
+          <li><a href="#asso">L'asso</a></li>
+          <li><a href="#benevoles">Bénévoles</a></li>
+          <li><a href="#soutenir">Nous soutenir</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li id="navEspace" hidden><a href="#espace">Espace asso</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="container" tabindex="-1">
+
+    <!-- ================= ACCUEIL ================= -->
+    <section class="page" id="accueil" aria-labelledby="titre-accueil" data-page>
+      <div class="banner">
+        <img class="banner__img" src="images/hero-lac.webp" alt="" width="1150" height="718" fetchpriority="high">
+        <img class="banner__logo" src="images/logo-ecop.webp" alt="Logo ECO.P : un lac de montagne, une barque et l'inscription Ecological Cleaning Outdoors with People" width="128" height="128">
+        <div class="banner__inner">
+          <p class="glass-tag">● Massif du Jura · Ain &amp; Haute-Savoie</p>
+          <h1 id="titre-accueil" tabindex="-1">Préserver le monde jurassien, devenez des écopains.</h1>
+          <p class="banner__baseline" lang="en">Ecological Cleaning Outdoors with People</p>
+          <p class="banner__lede">Canoë, voile, randonnée, accrobranche : ECO.P emmène dehors les personnes isolées, malades, en situation de handicap ou en difficulté — et chaque sortie laisse le lieu plus propre qu'on l'a trouvé. Gratuit, encadré, adapté à chaque rythme.</p>
+          <div class="cta-row">
+            <a class="btn btn--amber" href="#sorties">Voir les prochaines sorties
+              <svg class="ico-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#benevoles">Devenir bénévole</a>
+          </div>
+        </div>
+      </div>
+
+      <section aria-labelledby="titre-impact" class="reveal">
+        <div class="section-head">
+          <p class="eyebrow eyebrow--tag">01 // Impact depuis 2024</p>
+          <h2 id="titre-impact">Ce que les écopains ont déjà fait</h2>
+        </div>
+        <dl class="impact" id="impactBox">
+          <div><dt>kg de déchets collectés</dt><dd data-impact="kg">1 248</dd></div>
+          <div><dt>sorties organisées</dt><dd data-impact="sorties">36</dd></div>
+          <div><dt>participants accueillis</dt><dd data-impact="participants">412</dd></div>
+          <div><dt>bénévoles actifs</dt><dd data-impact="benevoles">58</dd></div>
+        </dl>
+      </section>
+
+      <section aria-labelledby="titre-etapes">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow--tag">02 // Mode d'emploi</p>
+          <h2 id="titre-etapes">Comment ça marche</h2>
+        </div>
+        <ol class="cards">
+          <li class="card step reveal" style="--i:0">
+            <svg class="step__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18h18"/><path d="M3 18 9 7l4 6 2.5-3.5L21 18"/><circle cx="17" cy="5" r="2"/></svg>
+            <p class="step__num">Étape 1</p>
+            <h3>On choisit un lieu</h3>
+            <p>Une rive, un sentier, une forêt du Jura qui a besoin d'un coup de main — et qui reste accessible.</p>
+          </li>
+          <li class="card step reveal" style="--i:1">
+            <svg class="step__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-5 6-5s6 1.7 6 5"/><path d="M17 11h4M19 9v4"/></svg>
+            <p class="step__num">Étape 2</p>
+            <h3>On vient te chercher</h3>
+            <p>Covoiturage, matériel adapté, joëlette, accompagnant·e dédié·e : l'inscription sert à préparer tout ça.</p>
+          </li>
+          <li class="card step reveal" style="--i:2">
+            <svg class="step__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.3-7-9a4 4 0 0 1 7-2.6A4 4 0 0 1 19 12c0 4.7-7 9-7 9z"/></svg>
+            <p class="step__num">Étape 3</p>
+            <h3>On profite, puis on nettoie</h3>
+            <p>Une demi-journée dehors : la sortie d'abord, le ramassage ensuite. On pèse, on trie, on aide la planète.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="titre-prochaines">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow--tag">03 // À venir</p>
+          <h2 id="titre-prochaines">Les prochaines sorties</h2>
+          <a class="btn btn--ghost btn--small" href="#sorties">Tout le calendrier
+            <svg class="ico-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <div class="sorties-grid" id="nextSorties">
+          <p class="empty-note">Le programme s'affiche avec JavaScript activé.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- ================= SORTIES ================= -->
+    <section class="page" id="sorties" aria-labelledby="titre-sorties" data-page>
+      <header class="page-head">
+        <p class="eyebrow eyebrow--tag">02 // Calendrier 2026 – 2027</p>
+        <h1 id="titre-sorties" tabindex="-1">Les sorties</h1>
+        <p class="lede">Toutes les sorties sont gratuites. Les places sont limitées pour garder une personne accompagnante pour deux participants.</p>
+      </header>
+
+      <section aria-labelledby="titre-carte" class="reveal">
+        <div class="section-head">
+          <p class="eyebrow eyebrow--tag">Carte // Ain &amp; massif du Jura</p>
+          <h2 id="titre-carte">Où on sort</h2>
+        </div>
+        <div class="mapwrap" id="mapWrap"></div>
+        <ul class="legend" aria-label="Légende de la carte">
+          <li><span class="legend__sym legend__sym--sortie" aria-hidden="true"></span>Sortie programmée</li>
+          <li><span class="legend__sym legend__sym--repere" aria-hidden="true"></span>Lieu repéré, pas encore programmé</li>
+          <li><span class="legend__sym legend__sym--ville" aria-hidden="true"></span>Ville repère</li>
+          <li><span class="legend__sym legend__sym--sommet" aria-hidden="true"></span>Sommet</li>
+        </ul>
+        <p class="map-credit">Carte : départements <a href="https://geoservices.ign.fr/adminexpress">IGN – Admin Express</a> (Licence Ouverte 2.0) via france-geojson ; frontières, cantons, cours d'eau et lacs <a href="https://www.naturalearthdata.com/">Natural Earth</a> (domaine public) ; relief estompé extrait de NASA Blue Marble Shaded Relief (NASA Earth Observatory, via FreeTiler) ; rivière d'Ain et Valserine tracées à la main.</p>
+        <h3 class="sr-only">Liste des lieux de la carte</h3>
+        <ul class="spot-list" id="spotList"></ul>
+      </section>
+
+      <section class="split split--narrow-first" id="sortiesLayout" aria-label="Calendrier des sorties">
+        <div class="cal reveal">
+          <div class="cal__head">
+            <button class="cal__nav" type="button" id="prevMonth" aria-label="Mois précédent">‹</button>
+            <h2 id="calTitle" aria-live="polite">—</h2>
+            <button class="cal__nav" type="button" id="nextMonth" aria-label="Mois suivant">›</button>
+          </div>
+          <div class="cal__grid" id="calGrid"></div>
+          <p class="muted mt-3">Clique sur un jour pour voir ses sorties. Les jours en vert en ont au moins une.</p>
+        </div>
+        <div class="stack" aria-live="polite">
+          <h2 id="dayTitle" class="h3-size">Choisis un jour dans le calendrier</h2>
+          <div class="sorties-grid" id="dayList"></div>
+        </div>
+      </section>
+
+      <section id="inscription" aria-labelledby="inscTitre">
+        <div class="form-box" id="inscriptionBox">
+          <p class="eyebrow eyebrow--tag">Inscription</p>
+          <h2 class="h3-size mt-2" id="inscTitre" tabindex="-1">Choisis d'abord une sortie</h2>
+          <p class="muted" id="inscSub">Clique sur « Je m'inscris » dans une des cartes ci-dessus.</p>
+          <form class="mt-4" id="formInscription" hidden novalidate>
+            <p class="muted">Les champs marqués <span class="req" aria-hidden="true">*</span> sont obligatoires.</p>
+            <div class="form-row">
+              <div class="field"><label for="i-nom">Prénom et nom <span class="req" aria-hidden="true">*</span></label><input id="i-nom" name="nom" required autocomplete="name"></div>
+              <div class="field"><label for="i-email">E-mail <span class="req" aria-hidden="true">*</span></label><input id="i-email" name="email" type="email" required autocomplete="email"></div>
+            </div>
+            <div class="form-row">
+              <div class="field"><label for="i-tel">Téléphone <span class="field__hint">— pour prévenir en cas de météo</span></label><input id="i-tel" name="tel" type="tel" autocomplete="tel"></div>
+              <div class="field"><label for="i-nb">Nombre de participants</label><input id="i-nb" name="participants" type="number" min="1" max="6" value="1" inputmode="numeric"></div>
+            </div>
+            <div class="form-row">
+              <div class="field"><label for="i-besoin">Accompagnement nécessaire</label>
+                <select id="i-besoin" name="besoin">
+                  <option>Aucun</option>
+                  <option>Mobilité réduite (marche lente)</option>
+                  <option>Fauteuil roulant / joëlette</option>
+                  <option>Fatigue importante (pauses fréquentes)</option>
+                  <option>Déficience visuelle ou auditive</option>
+                  <option>Je viens avec un accompagnant</option>
+                  <option>Autre (je précise ci-dessous)</option>
+                </select>
+              </div>
+              <div class="field"><label for="i-transport">Transport</label>
+                <select id="i-transport" name="transport">
+                  <option>Je viens par mes propres moyens</option>
+                  <option>J'ai besoin d'un covoiturage</option>
+                  <option>Je peux proposer des places</option>
+                </select>
+              </div>
+            </div>
+            <div class="field"><label for="i-message">Quelque chose à nous signaler ?</label><textarea id="i-message" name="message" placeholder="Traitement en cours, allergie, appréhension, question…"></textarea></div>
+            <label class="check" for="i-ok"><input type="checkbox" id="i-ok" name="consentement" required> J'accepte d'être recontacté·e par l'association au sujet de cette sortie. <span class="req" aria-hidden="true">*</span></label>
+            <div class="cta-row">
+              <button class="btn" type="submit">Envoyer mon inscription</button>
+              <button class="btn btn--ghost btn--small" type="button" id="cancelInsc">Annuler</button>
+            </div>
+            <div class="msg" id="inscMsg" role="status"></div>
+          </form>
+        </div>
+      </section>
+    </section>
+
+    <!-- ================= L'ASSO ================= -->
+    <section class="page" id="asso" aria-labelledby="titre-asso" data-page>
+      <header class="page-head">
+        <p class="eyebrow eyebrow--tag">03 // L'association</p>
+        <h1 id="titre-asso" tabindex="-1">Une barque, un lac, et l'idée que la nature ne devrait exclure personne</h1>
+      </header>
+      <div class="split">
+        <div class="stack reveal">
+          <p>ECO.P — <em lang="en">Ecological Cleaning Outdoors with People</em> — est née au pied du Jura, du constat que deux problèmes se croisent sans jamais se rencontrer : des lacs, des rivières et des forêts qui se dégradent faute de bras, et des personnes qui n'ont plus l'occasion de sortir dehors faute d'accompagnement.</p>
+          <p>On a décidé de traiter les deux en même temps. Chaque sortie est pensée d'abord comme une bouffée d'air pour les participants, et ensuite seulement comme une action écologique. L'ordre compte : personne ne vient « travailler », tout le monde vient profiter.</p>
+          <blockquote class="quote"><p>« On a ramassé 34 kilos ce matin-là. Mais ce dont ma mère parle encore, c'est du héron. »</p></blockquote>
+          <h2 class="sr-only">Notre histoire</h2>
+          <ol class="timeline">
+            <li><time datetime="2024">2024</time><h3>Première sortie test</h3><p>Douze personnes au bord de la rivière d'Ain, deux fauteuils, un sac de 18 kg. On comprend que la logistique est tout le sujet.</p></li>
+            <li><time datetime="2025">2025</time><h3>L'officialisation de l'association</h3><p>Association loi 1901. Achat de la première joëlette grâce à une collecte locale.</p></li>
+            <li><time datetime="2026">2026</time><h3>Une sortie tous les quinze jours</h3><p>Quatre activités au programme : canoë-kayak, voile, randonnée et accrobranche. Premiers partenariats.</p></li>
+            <li><time datetime="2027">Et après</time><h3>Un minibus adapté</h3><p>Objectif 2027 : ne plus dépendre du covoiturage pour les participants en fauteuil.</p></li>
+          </ol>
+        </div>
+        <div class="stack">
+          <section class="card reveal" style="--i:0" aria-labelledby="t-pourqui">
+            <h2 id="t-pourqui" class="eyebrow">Pour qui</h2>
+            <ul class="card-list">
+              <li>Personnes en traitement ou en rémission</li>
+              <li>Personnes en situation de handicap</li>
+              <li>Personnes âgées isolées</li>
+              <li>Personnes qui veulent profiter tout en réalisant une bonne action</li>
+              <li>Et toute personne qui veut donner un coup de main</li>
+            </ul>
+          </section>
+          <section class="card reveal" style="--i:1" aria-labelledby="t-regles">
+            <h2 id="t-regles" class="eyebrow">Nos règles</h2>
+            <ul class="card-list">
+              <li>Gratuit pour les participants, toujours</li>
+              <li>Un·e encadrant·e pour deux participants</li>
+              <li>Aucune photo publiée sans accord</li>
+              <li>On annule plutôt que de forcer la météo</li>
+              <li>Les déchets sont pesés, triés et déclarés</li>
+            </ul>
+          </section>
+          <section class="card reveal" style="--i:2" aria-labelledby="t-equipe">
+            <h2 id="t-equipe" class="eyebrow">L'équipe</h2>
+            <p class="muted">5 fondatrices de l'association, alternant entre le bureau et les sorties, et des bénévoles réguliers entre le Pays de Gex, le Haut-Bugey et le Chablais.</p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BÉNÉVOLES ================= -->
+    <section class="page" id="benevoles" aria-labelledby="titre-benevoles" data-page>
+      <header class="page-head">
+        <p class="eyebrow eyebrow--tag">04 // Bénévolat</p>
+        <h1 id="titre-benevoles" tabindex="-1">On cherche surtout des bras, des voitures et de la patience</h1>
+      </header>
+      <div class="split split--even">
+        <div class="stack">
+          <section class="card reveal" style="--i:0" aria-labelledby="t-demande">
+            <h2 id="t-demande" class="h3-size">Ce qu'on te demande</h2>
+            <p class="muted">Une demi-journée de temps en temps, c'est déjà beaucoup. Pas besoin d'être sportif ni de connaître quoi que ce soit à l'écologie, juste avoir le PSC pour les bénévoles, afin de maîtriser les gestes de premiers secours.</p>
+          </section>
+          <section class="card reveal" style="--i:1" aria-labelledby="t-roles">
+            <h2 class="h3-size" id="t-roles">Les rôles</h2>
+            <ul class="card-list">
+              <li><strong>Accompagnant·e</strong> — tu restes avec un ou deux participants</li>
+              <li><strong>Conducteur·rice</strong> — tu emmènes des personnes à la sortie</li>
+              <li><strong>Logistique</strong> — matériel, gants, pesée, tri</li>
+              <li><strong>Porteur·se de joëlette</strong> — par équipe de quatre</li>
+              <li><strong>Com' &amp; photo</strong> — récits de sortie, réseaux</li>
+            </ul>
+          </section>
+          <section class="card reveal" style="--i:2" aria-labelledby="t-apres">
+            <h2 class="h3-size" id="t-apres">Et après ?</h2>
+            <p class="muted">On te rappelle sous une semaine et on te propose une première sortie en binôme avec un encadrant. Aucun engagement de durée.</p>
+          </section>
+        </div>
+        <div class="form-box reveal">
+          <p class="eyebrow eyebrow--tag">Candidature</p>
+          <h2 class="h3-size mt-2 mb-4">Dis-nous qui tu es</h2>
+          <form id="formBenevole" novalidate>
+            <div class="form-row">
+              <div class="field"><label for="b-nom">Prénom et nom <span class="req" aria-hidden="true">*</span></label><input id="b-nom" name="nom" required autocomplete="name"></div>
+              <div class="field"><label for="b-email">E-mail <span class="req" aria-hidden="true">*</span></label><input id="b-email" name="email" type="email" required autocomplete="email"></div>
+            </div>
+            <div class="form-row">
+              <div class="field"><label for="b-dep">Département</label>
+                <select id="b-dep" name="departement">
+                  <option>01 – Ain</option><option>74 – Haute-Savoie</option><option>73 – Savoie</option>
+                  <option>39 – Jura</option><option>25 – Doubs</option><option>69 – Rhône</option>
+                  <option>38 – Isère</option><option>Suisse voisine</option><option>Autre</option>
+                </select>
+              </div>
+              <div class="field"><label for="b-age">Âge <span class="field__hint">— dès 14 ans avec autorisation</span></label><input id="b-age" name="age" type="number" min="14" max="99" inputmode="numeric"></div>
+            </div>
+            <div class="field"><label for="b-role">Rôle qui t'intéresse</label>
+              <select id="b-role" name="role">
+                <option>Accompagnant·e</option><option>Conducteur·rice</option><option>Logistique &amp; matériel</option>
+                <option>Porteur·se de joëlette</option><option>Communication &amp; photo</option><option>Peu importe, je m'adapte</option>
+              </select>
+            </div>
+            <div class="field"><label for="b-dispo">Disponibilités</label>
+              <select id="b-dispo" name="dispo">
+                <option>Un week-end par mois</option><option>Tous les week-ends</option>
+                <option>En semaine</option><option>Vacances scolaires uniquement</option><option>Ponctuellement</option>
+              </select>
+            </div>
+            <div class="field"><label for="b-comp">Compétences ou expériences utiles</label><textarea id="b-comp" name="competences" placeholder="Permis B, secourisme, langue des signes, mécanique, rien du tout…"></textarea></div>
+            <label class="check" for="b-ok"><input type="checkbox" id="b-ok" name="consentement" required> J'accepte d'être recontacté·e par l'association. <span class="req" aria-hidden="true">*</span></label>
+            <button class="btn" type="submit">Envoyer ma candidature</button>
+            <div class="msg" id="benevMsg" role="status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= NOUS SOUTENIR ================= -->
+    <section class="page" id="soutenir" aria-labelledby="titre-soutenir" data-page>
+      <header class="page-head">
+        <p class="eyebrow eyebrow--tag">05 // Financement</p>
+        <h1 id="titre-soutenir" tabindex="-1">Est-ce que tu veux nous soutenir ?</h1>
+        <p class="lede">Transport adapté, assurance, gants et sacs de tri, formation des encadrants : tout est financé par les dons, le mécénat et les subventions publiques. Une sortie coûte environ 340&nbsp;€, mais zéro pour ceux qui y participent.</p>
+      </header>
+
+      <section aria-labelledby="t-budget" class="reveal">
+        <h2 class="h3-size mb-4" id="t-budget">Où va l'argent</h2>
+        <ul class="budget" id="budget"></ul>
+      </section>
+
+      <section aria-labelledby="t-particulier">
+        <h2 class="h3-size mb-4" id="t-particulier">Soutenir en tant que particulier</h2>
+        <div class="tiers">
+          <article class="card tier reveal" style="--i:0"><p class="tier__amount">15 €</p><h3 class="tier__name">Adhésion annuelle</h3><p class="muted">Tu deviens membre, tu votes en assemblée générale.</p></article>
+          <article class="card tier tier--featured reveal" style="--i:1"><p class="tier__amount">50 €</p><h3 class="tier__name">Une place de sortie</h3><p class="muted">Couvre le transport et le matériel d'un participant.</p></article>
+          <article class="card tier reveal" style="--i:2"><p class="tier__amount">340 €</p><h3 class="tier__name">Une sortie entière</h3><p class="muted">Tu peux la parrainer et venir y participer.</p></article>
+        </div>
+        <p class="muted mt-4">Les dons se font par virement — le RIB est envoyé sur demande via le formulaire de contact. Reçu fiscal systématique.</p>
+      </section>
+
+      <section aria-labelledby="t-mecenat">
+        <h2 class="h3-size" id="t-mecenat">Entreprises &amp; mécénat</h2>
+        <p class="lede mt-2 lede--s">Mécénat financier, don de matériel (véhicules, gants, gilets) ou journée solidaire pour vos équipes : une sortie ECO.P encadrée pour 10 à 25 salariés, avec bilan de collecte à l'appui.</p>
+        <ul class="partners mt-4" aria-label="Partenaires (exemples)">
+          <li class="partner reveal" style="--i:0"><strong>Votre logo ici</strong><span>Mécène fondateur</span></li>
+          <li class="partner reveal" style="--i:1"><strong>Fondation exemple</strong><span>Soutien matériel</span></li>
+          <li class="partner reveal" style="--i:2"><strong>Commune exemple</strong><span>Subvention 2026</span></li>
+          <li class="partner reveal" style="--i:3"><strong>Entreprise exemple</strong><span>Journée solidaire</span></li>
+          <li class="partner reveal" style="--i:4"><strong>Club sportif exemple</strong><span>Prêt de matériel</span></li>
+          <li class="partner reveal" style="--i:5"><strong>Votre logo ici</strong><span>Place à prendre</span></li>
+        </ul>
+        <div class="cta-row mt-5">
+          <a class="btn" href="#contact">Discuter d'un partenariat
+            <svg class="ico-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </section>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="page" id="contact" aria-labelledby="titre-contact" data-page>
+      <header class="page-head">
+        <p class="eyebrow eyebrow--tag">06 // Contact</p>
+        <h1 id="titre-contact" tabindex="-1">Une question, un lieu à nettoyer, un proche à inscrire ?</h1>
+      </header>
+      <div class="split split--narrow-first">
+        <div class="stack">
+          <section class="card reveal" aria-labelledby="t-coord">
+            <h2 id="t-coord" class="eyebrow">Coordonnées</h2>
+            <address class="coords">
+              <p><strong>ECO.P</strong><br>Association loi 1901<br>Pays de Gex · Massif du Jura</p>
+              <p><span id="mailTxt">contact@ecop-asso.fr</span> <button class="copy-btn" type="button" data-copy="contact@ecop-asso.fr" aria-describedby="mailTxt">Copier</button></p>
+              <p><span id="telTxt">06 00 00 00 00</span> <button class="copy-btn" type="button" data-copy="0600000000" aria-describedby="telTxt">Copier</button></p>
+            </address>
+            <p class="sr-only" id="copyStatus" role="status"></p>
+          </section>
+          <section class="card reveal" aria-labelledby="t-signaler">
+            <h2 id="t-signaler" class="eyebrow">Signaler un site pollué</h2>
+            <p class="muted mt-2">Décris le lieu le plus précisément possible (commune, accès, type de déchets). On va voir sur place avant de programmer une sortie.</p>
+          </section>
+        </div>
+        <div class="form-box reveal">
+          <h2 class="sr-only">Formulaire de contact</h2>
+          <form id="formContact" novalidate>
+            <div class="form-row">
+              <div class="field"><label for="c-nom">Nom <span class="req" aria-hidden="true">*</span></label><input id="c-nom" name="nom" required autocomplete="name"></div>
+              <div class="field"><label for="c-email">E-mail <span class="req" aria-hidden="true">*</span></label><input id="c-email" name="email" type="email" required autocomplete="email"></div>
+            </div>
+            <div class="field"><label for="c-sujet">Sujet</label>
+              <select id="c-sujet" name="sujet">
+                <option>Inscrire un proche à une sortie</option>
+                <option>Signaler un lieu à nettoyer</option>
+                <option>Partenariat / mécénat</option>
+                <option>Demande de RIB pour un don</option>
+                <option>Presse</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="field"><label for="c-msg">Message <span class="req" aria-hidden="true">*</span></label><textarea id="c-msg" name="message" required></textarea></div>
+            <button class="btn" type="submit">Envoyer</button>
+            <div class="msg" id="contactMsg" role="status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ESPACE ASSO ================= -->
+    <section class="page" id="espace" aria-labelledby="titre-espace" data-page hidden>
+      <header class="page-head">
+        <p class="eyebrow eyebrow--tag">Réservé à l'association</p>
+        <h1 id="titre-espace" tabindex="-1">Espace asso</h1>
+      </header>
+      <div>
+        <div class="tabs" role="tablist" aria-label="Rubriques de l'espace asso" id="adminTabs">
+          <button role="tab" type="button" id="tab-insc"   aria-controls="adminPanel" aria-selected="true"  data-tab="insc">Inscriptions</button>
+          <button role="tab" type="button" id="tab-benev"  aria-controls="adminPanel" aria-selected="false" tabindex="-1" data-tab="benev">Bénévoles</button>
+          <button role="tab" type="button" id="tab-msg"    aria-controls="adminPanel" aria-selected="false" tabindex="-1" data-tab="msg">Messages</button>
+          <button role="tab" type="button" id="tab-add"    aria-controls="adminPanel" aria-selected="false" tabindex="-1" data-tab="add">Ajouter une sortie</button>
+          <button role="tab" type="button" id="tab-photos" aria-controls="adminPanel" aria-selected="false" tabindex="-1" data-tab="photos" hidden>Photos</button>
+          <button role="tab" type="button" id="tab-stats"  aria-controls="adminPanel" aria-selected="false" tabindex="-1" data-tab="stats">Chiffres d'impact</button>
+        </div>
+        <div class="stack" id="adminPanel" role="tabpanel" aria-labelledby="tab-insc" tabindex="0"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>ECO.P — <span lang="en">Ecological Cleaning Outdoors with People</span> · Association loi 1901 · Massif du Jura</p>
+      <p class="mono">Contenus d'exemple</p>
+    </div>
+  </footer>
+
+  <!-- Modèle d'une carte de sortie (cloné par js/app.js) -->
+  <template id="tpl-sortie">
+    <article class="sortie reveal">
+      <div class="sortie__media">
+        <img src="" alt="" loading="lazy" width="520" height="347">
+        <span class="glass-tag" data-slot="type"></span>
+      </div>
+      <div class="sortie__body">
+        <h3 data-slot="titre"></h3>
+        <p class="sortie__meta"><span data-slot="quand"></span><span data-slot="lieu"></span></p>
+        <p class="sortie__desc" data-slot="desc"></p>
+        <p class="sortie__access">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="4.5" r="1.8"/><path d="M8 9h8M12 9v5l-3 6M12 14l3 6"/></svg>
+          <span><span class="sr-only">Accessibilité : </span><span data-slot="acces"></span></span>
+        </p>
+        <p class="sortie__places" data-slot="places"></p>
+        <button class="btn btn--small" type="button" data-sortie="">Je m'inscris<span class="sr-only" data-slot="srtitre"></span>
+          <svg class="ico-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+    </article>
+  </template>
+
+  <script src="js/data.js"></script>
+  <script src="js/map-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
